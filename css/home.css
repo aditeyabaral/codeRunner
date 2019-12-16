@@ -1,0 +1,104 @@
+body{
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    position: relative;
+    width:100%;
+}
+
+.main{
+    margin-top: -18px;
+}
+.content{
+    margin-left: 200px;
+    margin-top: 300px;
+    border: 1px solid #f9f9f9;
+    border-radius: 1em;
+    position: relative;
+    bottom: 750px;
+    color: #f9f9f9;
+    width: 550px;
+    background-color: #222;
+    opacity: 0.8;
+
+}
+.content h2 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 35px;
+  }
+
+  button {
+    background: #222;
+    padding: 10px 16px;
+    width: auto;
+    font-weight: 600;
+    text-transform:  uppercase;
+    font-size: 14px;
+    color: #fff;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+    border: 0;
+    outline: 0;
+    margin: 15px 15px 15px 0;
+  }
+  
+  button:hover {
+    background: #222;
+    color:#fff;
+    box-shadow: 0 4px 7px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+  }
+
+  .promo-area {
+    background: none repeat scroll 0 0 #222;
+    color: #222;
+    padding: 77px 0 200px;
+    font-family: 'Roboto', sans-serif;
+    margin-top:-495px;
+    height:330px;
+  }
+  
+  .brands-area {
+    background: none repeat scroll 0 0 #222;
+    color: black;
+    padding: 0px 0 200px;
+  }
+  
+  .promo-area .bottom, .brands-area .bottom{background: #fff}
+  .single-promo {
+      border: 1px solid #fff;
+      background-color: #f9f9f9;;
+      font-size: 20px;
+      font-weight: 200;
+      padding: 30px 20px;
+      text-align: center;
+      height: 150px;
+      width: 275px;
+      
+      border-radius: 50%;
+  }
+  .single-promo i {
+    font-size: 50px;
+  }
+  
+  .single-promo:hover {color: #fff;background: #222;border-color: #222}
+
+  /*.img-quote{
+      position: relative;
+  }*/
+  .quote{
+    margin-left: 770px;
+    margin-top: 530px;
+    position: relative;
+    bottom: 750px;
+    color: #222;
+    font-size: 25px;
+    height: 50px;
+}
+
+.more{
+    margin-top: -160px;
+}

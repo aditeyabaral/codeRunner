@@ -1,0 +1,143 @@
+
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font-family: 'Roboto', sans-serif;
+  background-color: white;  
+
+  color: #555;}
+
+  p
+  { padding: 0 0 20px 0;
+    line-height: 1.7em;}
+  
+  img
+  { border: 0;}
+  
+  h1, h2, h3, h4, h5, h6 
+  { color: #362C20;
+    letter-spacing: 0em;
+    padding: 0 0 5px 0;}
+  
+  h1, h2, h3
+  { font: normal 170%;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+    color: #000;}
+  
+  h2
+  { font-size: 160%;
+    padding: 9px 0 5px 0;
+    color: #B48A7C;}
+  
+  h3
+  { font-size: 140%;
+    padding: 5px 0 0 0;}
+  
+  h4, h6
+  { color: #B48A7C;
+    padding: 0 0 5px 0;
+    font: normal 110%;
+    text-transform: uppercase;}
+  
+  h5, h6
+  { color: #888;
+    font: normal 95%;
+    letter-spacing: normal;
+    padding: 0 0 15px 0;}
+  
+  a, a:hover
+  { outline: none;
+    text-decoration: underline;
+    color: #B48A7C;}
+  
+  a:hover
+  { text-decoration: none;}
+  
+
+  
+  ul
+  { margin: 2px 0 22px 17px;}
+  
+  ul li
+  { list-style-type: circle;
+    margin: 0 0 6px 0; 
+    padding: 0 0 4px 5px;
+    line-height: 1.5em;}
+  
+  ol
+  { margin: 8px 0 22px 20px;}
+  
+  ol li
+  { margin: 0 0 11px 0;}
+
+#main{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white8;
+}
+#site_content
+{ width: 880px;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  padding: 0 0 10px 0;} 
+
+  #banner
+{
+  width: 790px;
+  height: 415px;
+  margin-bottom: 20px;
+  border: 10px solid gray;}
+
+  #sidebar_container
+{ float: left;
+  width: 224px;}
+
+  .sidebar
+{ float: right;
+  width: 222px;
+  padding: 0;
+  margin: 0 0 16px 0;}
+
+  .sidebar_top
+{ width: 222px;
+  height: 14px;
+  }
+
+  .sidebar_item
+{ 
+  padding: 0 15px;
+  width: 192px;}
+
+  .sidebar li a.selected
+{ color: #444;} 
+
+.sidebar ul
+{ margin: 0;} 
+
+#content
+{ text-align: left;
+  width: 620px;
+  padding: 0 100px 0 5px;
+  float: right;}
+  
+#content ul
+{ margin: 2px 0 22px 0px;}
+
+#content ul li, .sidebar ul li
+{ list-style-type: none;
+  margin: 0 0 0 0; 
+  padding: 0 0 4px 25px;
+  line-height: 1.5em;}
+
+  .sidebar_base
+{ width: 222px;
+  height: 14px;
+}
+
+

@@ -1,0 +1,33 @@
+body{
+    background-color: #cfcfc4;
+    height:100vh;
+    margin:0;
+    display:grid;
+    place-items:center;
+    overflow:hidden;
+}
+
+.cards{
+    display: flex;
+}
+.card{
+    background-color: #cfc4cf;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow:4px 4px 15px 2px rgba(black, 0.75);
+    transition: 0.2s;
+}
+.card:not(:first-child){
+    margin-left:-4rem;
+}
+
+.card:hover{
+    transform: translateY(-1rem);
+}
+
+.card:hover ~ .card{
+    transform: translateY(4rem);
+}
+h2{
+    color:white;
+}

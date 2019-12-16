@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+	<title>codeRunner - Contact Us</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+   <link rel="stylesheet" type="text/css" href="css/contact.css">
+   <script
+   src="https://code.jquery.com/jquery-3.4.1.js"
+   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+   crossorigin="anonymous"></script>
+   <script src="js/contact.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">codeRunner</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="practice.php">Practice</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <!--<li><a href="profile.html">Profile</a></li>-->
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <!--<li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>-->
+            <li><a href="loginpage.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container-contact">
+    <div class="wrap-contact">
+        <form name ="contact-form" class="contact-form validate-form" id="form-log" onsubmit="return Validate()" action = "sendfeed.php" method = "POST">
+            <span class="contact-form-title">
+                Send Us A Message
+            </span>
+
+
+            <div class="wrap-input validate-input" data-validate="Name is required">
+                <label class="label-input" for="name">Full name</label>
+                <input id="name" class="input" type="text" name="name" placeholder="Enter your name..." required>
+                <span class="focus-input"></span>
+            </div>
+
+
+            <div class="wrap-input validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                <label class="label-input" for="email">Email Address</label>
+                <input id="email" class="input" type="text" name="email" placeholder="Enter your email..." required>
+                <span class="focus-input"></span>
+            </div>
+
+            <div class="wrap-input">
+                <div class="label-input">What do you need?</div>
+                <div>
+                    <select class="js-select2" name="service">
+                        <option>Please choose</option>
+                        <option>Problem with coding</option>
+                        <option>Feedback</option>
+                        <option>Other</option>
+                    </select>
+                    <div class="dropDownSelect2"></div>
+                </div>
+                <span class="focus-input"></span>
+            </div>
+
+            <div class="wrap-input validate-input" data-validate = "Message is required">
+                <label class="label-input" for="message">Message</label>
+                <textarea id="message" class="input" name="message" placeholder="Type your message here..." required></textarea>
+                <span class="focus-input"></span>
+            </div>
+
+            <div class="container-contact-form-btn">
+                <input type = "submit" class="contact-form-btn">
+                    
+            </div>
+        </form>
+
+        
+            <img class="contact-more flex-col-c-m" src="img/bg-01.jpg">
+        
+    </div>
+</div>

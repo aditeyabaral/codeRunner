@@ -1,0 +1,78 @@
+body{
+    background-color: white;
+}
+.question-list{
+    overflow: auto;
+    height: 100%;
+    /*border: 1px solid black;*/
+    /*list-style: none;*/
+}
+.card-header1{
+    font-weight: auto;
+    background-color: #222;
+    list-style: none;
+    color:white;
+    align-content: center;
+    height: 50px;
+    margin-left:40px;
+    width:267px;
+    padding: 10px 16px;
+    letter-spacing: 0.5px;
+    border-radius: 2px;
+}
+
+.card-header2{
+    font-weight: auto;
+    background-color: #222;
+    list-style: none;
+    color:white;
+    align-content: center;
+    height: 50px;
+    width:646px;
+    padding: 10px 16px;
+    letter-spacing: 0.5px;
+    border-radius: 2px;
+}
+
+.card-info{
+    border: 1px solid #222;
+    height: 450px ;
+    overflow: auto;
+}
+
+textarea{
+    overflow:auto;
+}
+
+button {
+    background: #222;
+    padding: 10px 16px;
+    width: 650px;;
+    font-weight: 600;
+    text-transform:  uppercase;
+    font-size: 14px;
+    color: #fff;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+    border: 0;
+    outline: 0;
+    margin: 15px 15px 15px 0;
+    transition: all 0.25s;
+  }
+  
+  button:hover {
+    background: #222;
+    color:#fff;
+    box-shadow: 0 4px 7px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+  }
+
+  #full{
+      
+      display:inline-block;
+  }
+  a{
+      color:white;
+  }
+  }

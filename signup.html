@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+	<title>SignUp</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <script src="js/login.js"></script>
+           
+</head>
+<body>
+    <div id="back">
+        <div class="backRight"></div>
+        <div class="backLeft"></div>
+      </div>
+      
+      <div id="slideBox">
+        <div class="topLayer">
+      
+          <div class="right">
+            <div class="content">
+              <h2>Sign Up</h2>
+              <form id="form-log" action="createaccount.php" method="POST">
+
+                  <div class="form-group">
+                        <input type="text" id="name" placeholder="Name"  name = "name"/>
+                        <input type="email" id="email" placeholder="Email" name = "email"/>
+                        <input type="text" id="username" placeholder="Username" name = "username"/>
+                        <input type="password" id="password" placeholder="Password" name = "password"/>
+                      </div>
+                
+                <button id="login" type="submit">Sign Up</button>
+              </form>
+              <p id="log">Already have an account?</p>
+              <form action="loginpage.html" method="POST">
+                    <button id="goRight" class="off">Log In</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+</body>
+</html> 
+             
+
+    

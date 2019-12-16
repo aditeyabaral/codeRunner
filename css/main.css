@@ -1,0 +1,26 @@
+body{
+    background-color: #cfcfc4;
+}
+.question-list{
+    overflow: auto;
+    /*border: 1px solid black;*/
+    /*list-style: none;*/
+}
+.card-header{
+    font-weight: auto;
+    background-color: #222;
+    list-style: none;
+    color:white;
+    align-content: center;
+    height: 50px;
+}
+
+.card-info{
+    border: 1px solid #222;
+    height: 450px ;
+    overflow: auto;
+}
+
+textarea{
+    overflow:auto;
+}
